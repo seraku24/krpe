@@ -1,0 +1,145 @@
+* {
+  line-height: 1em;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 20%);
+  font-family: 'Liberation Sans', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+button {
+  background-color: hsl(0, 0%, 80%);
+  border: 2px solid hsl(0, 0%, 60%);
+  border-radius: 4px;
+  color: hsl(0, 0%, 20%);
+  font-size: 130%;
+  font-weight: bold;
+  vertical-align: middle;
+  width: 15%;
+  padding: 16px;
+  margin: 16px;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 90%);
+}
+
+h1 {
+  font-size: 150%;
+}
+
+input {
+  background-color: white;
+  border: 2px solid hsl(0, 0%, 60%);
+  border-radius: 4px;
+  color: hsl(0, 0%, 60%);
+  font-size: 250%;
+  width: 40%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+p {
+  font-size: 18px;
+}
+
+.main {
+  margin: 3em;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.larger {
+  font-size: 140%;
+}
+
+.finalPress {
+  background-color: hsl(350, 45%, 88%);
+}
+
+.key {
+  background-color: hsl(25, 40%, 83%);
+  border-radius: 2px;
+  font-family: 'Liberation Mono', 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  margin: 2px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  cursor: default;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.null {
+  display: none;
+}
+
+.space {
+  background-color: hsl(0, 0%, 80%);
+  font-family: 'Liberation Sans', Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  line-height: 20px;
+}
+
+.digit {
+  background-color: hsl(50, 40%, 80%);
+}
+
+.upper {
+  background-color: hsl(100, 35%, 80%);
+}
+
+.lower {
+  background-color: hsl(200, 33%, 84%);
+}
+
+#buttons button {
+  width: unset !important;
+  margin: 8px;
+}
+
+#instructions {
+  border-radius: 4px;
+  padding: 4px;
+  margin: 0em 8em;
+}
+
+#results {
+  background-color: hsl(0, 0%, 90%);
+  border: 4px solid hsl(0, 0%, 60%);
+  border-radius: 8px;
+  color: hsl(0, 0%, 20%);
+  position: absolute;
+  left: 25%;
+  top: 35%;
+  width: 50%;
+  padding: 3em 0em;
+}
+
+#results p {
+  font-size: 140%;
+}
+
+#remaining {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+#password-result {
+  font-size: 200%;
+  font-weight: bold;
+}

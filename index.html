@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Keylogger-Resistant Password Entry</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="main">
+    <section id="form">
+      <h1>Enter your password:</h1>
+      <button type="reset" id="reset">Start Over</button>
+      <input type="password" readonly="readonly" id="password">
+      <button type="submit" id="submit">All Done</button>
+      <div class="hidden" id="results">
+        <p>Your password is:<br><span id="password-result">password-result</span></p>
+      </div>
+    </section>
+    <section id="instructions">
+      <p class="larger">The next letter requires <span id="remaining">remaining</span> more button press<span id="plural">plural</span>.</p>
+      <p>Select the button below containing the next letter of the password:</p>
+    </section>
+    <section id="buttons"></section>
+  </div>
+  <script src="js/krpe.js"></script>
+</body>
+</html>
